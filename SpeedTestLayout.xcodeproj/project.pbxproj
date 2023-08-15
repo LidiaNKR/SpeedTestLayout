@@ -10,9 +10,12 @@
 		F861C1AD2A8B23D300248AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861C1AC2A8B23D300248AEA /* AppDelegate.swift */; };
 		F861C1AF2A8B23D300248AEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861C1AE2A8B23D300248AEA /* SceneDelegate.swift */; };
 		F861C1B12A8B23D300248AEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861C1B02A8B23D300248AEA /* ViewController.swift */; };
-		F861C1B42A8B23D300248AEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F861C1B22A8B23D300248AEA /* Main.storyboard */; };
 		F861C1B62A8B23D500248AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F861C1B52A8B23D500248AEA /* Assets.xcassets */; };
 		F861C1B92A8B23D500248AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F861C1B72A8B23D500248AEA /* LaunchScreen.storyboard */; };
+		F861C1C32A8B343D00248AEA /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861C1C22A8B343D00248AEA /* Calculations.swift */; };
+		F861C1C52A8B346A00248AEA /* DefaultUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861C1C42A8B346A00248AEA /* DefaultUI.swift */; };
+		F861C1C72A8B348800248AEA /* GaugeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861C1C62A8B348800248AEA /* GaugeOptions.swift */; };
+		F861C1C92A8B34AC00248AEA /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861C1C82A8B34AC00248AEA /* GaugeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,13 @@
 		F861C1AC2A8B23D300248AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F861C1AE2A8B23D300248AEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F861C1B02A8B23D300248AEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F861C1B32A8B23D300248AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F861C1B52A8B23D500248AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F861C1B82A8B23D500248AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F861C1BA2A8B23D500248AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F861C1C22A8B343D00248AEA /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+		F861C1C42A8B346A00248AEA /* DefaultUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultUI.swift; sourceTree = "<group>"; };
+		F861C1C62A8B348800248AEA /* GaugeOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeOptions.swift; sourceTree = "<group>"; };
+		F861C1C82A8B34AC00248AEA /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F84432272A8C09AB00983835 /* Gauge */ = {
+			isa = PBXGroup;
+			children = (
+				F861C1C22A8B343D00248AEA /* Calculations.swift */,
+				F861C1C42A8B346A00248AEA /* DefaultUI.swift */,
+				F861C1C62A8B348800248AEA /* GaugeOptions.swift */,
+				F861C1C82A8B34AC00248AEA /* GaugeView.swift */,
+			);
+			path = Gauge;
+			sourceTree = "<group>";
+		};
 		F861C1A02A8B23D300248AEA = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +75,8 @@
 			children = (
 				F861C1AC2A8B23D300248AEA /* AppDelegate.swift */,
 				F861C1AE2A8B23D300248AEA /* SceneDelegate.swift */,
+				F84432272A8C09AB00983835 /* Gauge */,
 				F861C1B02A8B23D300248AEA /* ViewController.swift */,
-				F861C1B22A8B23D300248AEA /* Main.storyboard */,
 				F861C1B52A8B23D500248AEA /* Assets.xcassets */,
 				F861C1B72A8B23D500248AEA /* LaunchScreen.storyboard */,
 				F861C1BA2A8B23D500248AEA /* Info.plist */,
@@ -127,7 +144,6 @@
 			files = (
 				F861C1B92A8B23D500248AEA /* LaunchScreen.storyboard in Resources */,
 				F861C1B62A8B23D500248AEA /* Assets.xcassets in Resources */,
-				F861C1B42A8B23D300248AEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,20 +157,16 @@
 				F861C1B12A8B23D300248AEA /* ViewController.swift in Sources */,
 				F861C1AD2A8B23D300248AEA /* AppDelegate.swift in Sources */,
 				F861C1AF2A8B23D300248AEA /* SceneDelegate.swift in Sources */,
+				F861C1C32A8B343D00248AEA /* Calculations.swift in Sources */,
+				F861C1C52A8B346A00248AEA /* DefaultUI.swift in Sources */,
+				F861C1C92A8B34AC00248AEA /* GaugeView.swift in Sources */,
+				F861C1C72A8B348800248AEA /* GaugeOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F861C1B22A8B23D300248AEA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F861C1B32A8B23D300248AEA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F861C1B72A8B23D500248AEA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +304,6 @@
 				INFOPLIST_FILE = SpeedTestLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +331,6 @@
 				INFOPLIST_FILE = SpeedTestLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
